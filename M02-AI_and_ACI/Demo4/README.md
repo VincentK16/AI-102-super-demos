@@ -29,6 +29,10 @@ This code is provided for demo purposes only for course AI-102.
 
 1. Execute command from file `command.azcli` in VS code terminal or CMD.
 
+```
+podman run --rm -it -p 5000:5000 --memory 4g --cpus 1 mcr.microsoft.com/azure-cognitive-services/vision/read:2.0-preview Eula=accept Billing=https://cognitive-svc-9001.cognitiveservices.azure.com ApiKey=be1aaf97e3ab48748b8b604be6235870
+```
+
 1. Navigate to [http://localhost:5000](http://localhost:5000) and- observe the home page.
 
 1. Following output should came from console where you run the command:
