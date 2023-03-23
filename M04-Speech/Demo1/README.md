@@ -29,13 +29,5 @@ This code is provided for demo purposes only for course AI-102.
 
 ![studio](studio.png)
 
-## Speaking clock (optional)
 
-1. The code based on the hands-on example converted to Node.js and adopted to execute on RPi. The sample is working with a microphone and expects input like 'What time is it?'
-
-1. Original code and installation instruction can be found in following [repo](https://github.com/true-while/AI-102-AIEngineer-Nodejs)
-
-![speaking-clock](speaking-clock.png)
-
->The sample includes Speech recognition and Speech synthesizing code examples. 
 
