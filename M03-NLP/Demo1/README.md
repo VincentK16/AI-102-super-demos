@@ -15,17 +15,3 @@ This code is provided for demo purposes only for course AI-102.
 
 ![sentiments](sentiments.png)
 
-1. Open console application **NewsReader** in VS Code or VS 2019
-
-1. Setup configuration parameters in `appconfiguration.json` for your multi-service cognitive service. The search term can be changed up to you.
-
-```json
-  "CognitiveServicesRegion": "your region",
-  "CognitiveServiceKey": "your key",
-  "SearchTerm": "AI"
-```
-
-1. Run application and observe output. News should be retrieved and sentiments should be detected.
-
-![newsreading](newsreading.png)
-
