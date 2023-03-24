@@ -26,21 +26,3 @@ This code is provided for demo purposes only for course AI-102.
     - key frames
 
     ![obj](waves.png)
-
-1. You also can programmable analyze short videos by use C# code from the `client-app` folder.
-
-1. First you need to upload a target video to the available location and provide a link. Streaming services like youtube will not work but azure storage account will work.
-
-1. Second you need to update file `appsettings.json` with your values:
-
-    ```json
-    {
-    "apiKey": "your app key can be copy from Profile page from https://aka.ms/viapi",
-    "accountId": "your acc ID can be find in Account Settings in Video Analyzer portal",
-    "videoUrl": "link to your video",
-    "videoName": "video name"
-    }
-
-1. Finlay you can run application and observe following output
-
-    ![run](run.png)
